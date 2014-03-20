@@ -10,3 +10,6 @@
 [submodule "/home/skander/.vim/bundle/indent-guides"]
 	path = /home/skander/.vim/bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "/home/skander/.vim/bundle/matchit"]
+	path = /home/skander/.vim/bundle/matchit
+	url = https://github.com/edsono/vim-matchit

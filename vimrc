@@ -313,3 +313,5 @@ function! UpdateTimeStamp()
  endif
  endfunction
 endif
+
+let g:ctrlp_map = '<c-h>'
