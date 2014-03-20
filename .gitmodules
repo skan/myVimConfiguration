@@ -13,3 +13,6 @@
 [submodule "/home/skander/.vim/bundle/matchit"]
 	path = /home/skander/.vim/bundle/matchit
 	url = https://github.com/edsono/vim-matchit
+[submodule "bundle/nerdTree"]
+	path = bundle/nerdTree
+	url = https://github.com/scrooloose/nerdtree.git
