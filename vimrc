@@ -14,6 +14,16 @@ imap jj <Esc>
 "set shiftwidth=3
 "set tabstop=3
 
+set nobackup
+set noswapfile
+" edit & source vim
+nmap <silent> <leader>ev :e $MYVIMRC<CR> 
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+set pastetoggle=<F2> "paste mode to avoid cascading indents
+nnoremap j gj
+nnoremap k gk
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
 " File: _vimrc             
 " Version: 1
 " Author: Seth Mason
