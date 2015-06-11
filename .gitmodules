@@ -1,17 +1,17 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
-[submodule "/home/skander/.vim/bundle/ctrlp"]
-	path = /home/skander/.vim/bundle/ctrlp
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim
-[submodule "/home/skander/.vim/bundle/rainbow_parentheses"]
-	path = /home/skander/.vim/bundle/rainbow_parentheses
+[submodule "bundle/rainbow_parentheses"]
+	path = bundle/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim
-[submodule "/home/skander/.vim/bundle/indent-guides"]
-	path = /home/skander/.vim/bundle/indent-guides
+[submodule "bundle/indent-guides"]
+	path = bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides
-[submodule "/home/skander/.vim/bundle/matchit"]
-	path = /home/skander/.vim/bundle/matchit
+[submodule "bundle/matchit"]
+	path = bundle/matchit
 	url = https://github.com/edsono/vim-matchit
 [submodule "bundle/nerdTree"]
 	path = bundle/nerdTree
