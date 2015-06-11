@@ -1,17 +1,11 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-"set showmatch
 set nu
-"set hlsearch
-"set incsearch
-imap jj <Esc>
-"set autoindent
 "set noexpandtab
 "set copyindent
 "set preserveindent
 ""set softtabstop=0
-"set shiftwidth=3
 "set tabstop=3
 
 set nobackup
@@ -88,7 +82,7 @@ set ruler
 set showcmd     
 
 " do incremental searches (annoying but handy);
-"set incsearch 
+set incsearch 
 
 " Show  tab characters. Visual Whitespace.
 set list
@@ -276,8 +270,6 @@ endif
 "
 abbr #b /************************************************************************
 abbr #e  ************************************************************************/
-
-abbr hosts C:\WINNT\system32\drivers\etc\hosts
 
 " abbreviation to manually enter a timestamp. Just type YTS in insert mode 
 iab YTS <C-R>=TimeStamp()<CR>
