@@ -16,3 +16,6 @@
 [submodule "bundle/nerdTree"]
 	path = bundle/nerdTree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "python-mode"]
+	path = python-mode
+	url = https://github.com/python-mode/python-mode.git
